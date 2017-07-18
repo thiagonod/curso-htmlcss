@@ -1,7 +1,7 @@
 body {
 	font-family: "Times new roman", serif;
 	background-color: #f2fffc;
-	font-size: 16px;
+	font-size: 18px;
 }
 h1, h2 {
 	font-family: "Ubuntu", sans-serif;
@@ -13,7 +13,7 @@ h1 {
 	color: #ffffff;
 }
 h2 {
-	font-size: 36px;
+	font-size: 32px;
 }
 p {
 	font-size: 16px;
