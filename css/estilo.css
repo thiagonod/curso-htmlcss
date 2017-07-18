@@ -5,3 +5,13 @@ h1 {
 	background-color: rgb(133, 25, 68);
 	color: #ffffff;
 }
+
+h2{
+	font-size: 38px;
+	font-family: "Ubuntu", sans-serif;
+}
+
+p {
+	font-size: 16px;
+	font-family: sans-serif;
+}
