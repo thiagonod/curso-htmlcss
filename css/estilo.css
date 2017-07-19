@@ -6,7 +6,7 @@ body {
 h1, h2 {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 }
-h1 {
+main h1 {
 	font-size: 60px;
 	text-align: center;
 	background-color: rgb(133, 25, 68);
