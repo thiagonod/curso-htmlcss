@@ -7,21 +7,15 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 }
 main h1 {
-	font-size: 60px;
 	text-align: center;
 	background-color: rgb(133, 25, 68);
 	color: #ffffff;
 }
-h2 {
-	font-size: 32px;
-}
 p {
-	font-size: 16px;
 	text-align: justify;
 }
 
 a:link {
-	font-size: 16px;
 	color: #3333ff;
 	text-decoration: none;
 }
