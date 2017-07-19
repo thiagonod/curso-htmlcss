@@ -33,3 +33,13 @@ footer {
 	height: 28px;
 	border-radius: 5px 5px;
 }
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+nav a {
+	color: #FFFFFF;
+}
+blockquote {
+	background-color: #D9E5E3;
+}
