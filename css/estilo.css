@@ -35,9 +35,8 @@ p {
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-
 a:link {
-	color: #3333ff;
+	color: #851944;
 	text-decoration: none;
 }
 .footer {
@@ -45,10 +44,14 @@ a:link {
 	color: #FFFFFF;
 	padding: 20px;
 }
-aside {
+.navegacao-site {
 	background-color: #3C1D3D;
+	padding: 20px;
 	color: #F2FFFC;
 	text-align: center;
+}
+.navegacao-site a {
+	color: #FFFFFF;
 }
 aside h1 {
 	font-size: 30px;
