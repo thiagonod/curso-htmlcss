@@ -53,10 +53,7 @@ aside a {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 	color: inherit;
 }
-aside nav li {
-	display: block;
-}
-aside li {
+.img-icons li {
 	display: inline-block;
 }
 blockquote {
