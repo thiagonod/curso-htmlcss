@@ -53,6 +53,12 @@ aside a {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 	color: inherit;
 }
+aside nav li {
+	display: block;
+}
+aside li {
+	display: inline-block;
+}
 blockquote {
 	background-color: #D9E5E3;
 	padding: 20px;	
