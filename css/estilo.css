@@ -8,19 +8,27 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 }
 main h1 {
+	font-size: 60px;
 	text-align: center;
 	background-color: rgb(133, 25, 68);
 	color: #ffffff;
 	padding: 10px;
 	border-bottom: 10px solid #000000;
 }
+main h2 {
+	font-size: 30px;
+}
 main div {
 	width: 720px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 p {
 	text-align: justify;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 a:link {
@@ -40,6 +48,10 @@ aside {
 	color: #F2FFFC;
 	text-align: center;
 }
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
 aside a {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 	color: inherit;
@@ -50,4 +62,11 @@ blockquote {
 	border: 10px solid #C2CCCA;
 	box-sizing: border-box;
 	width: 250px;
+	margin: 20px 40px;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
 }
