@@ -26,7 +26,6 @@ p {
 	margin-top: 20px;
 }
 a:link {
-	color: #851944;
 	text-decoration: none;
 }
 .titulo-h1 {
@@ -77,4 +76,24 @@ a:link {
 	box-sizing: border-box;
 	width: 250px;
 	margin: 20px 40px;
+}
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	text-align: center;
+	font-size: 24px
+	display: block;
+	background-color: #E6E7E8;
+	border-radius: 7px;
+	color: gray;
+}
+.tags-footer {
+	margin: 10px 0px;
+	padding: 8px 0;
+}
+.tags-footer a {
+	padding: 1px 3px;
+	background-color: #E6E7E8;
+	border-radius: 7px;
+	color: chocolate;
 }
