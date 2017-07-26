@@ -35,6 +35,7 @@ a:link {
 	color: #ffffff;
 	padding: 10px;
 	border-bottom: 10px solid #000000;
+	text-transform: uppercase;
 }
 .artigo {
 	padding-bottom: 30px;
