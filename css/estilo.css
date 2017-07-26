@@ -38,10 +38,7 @@ a:link {
 footer {
 	background-color: #111111;
 	color: #FFFFFF;
-	text-indent: 10px;
-	width: 100%;
-	height: 28px;
-	border-radius: 5px 5px;
+	padding: 20px;
 }
 aside {
 	background-color: #3C1D3D;
