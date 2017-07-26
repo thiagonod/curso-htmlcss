@@ -18,6 +18,13 @@ main h1 {
 main h2 {
 	font-size: 30px;
 }
+main article {
+	background-color: #e6eaea;
+    border: 5px solid #b7cbde;
+    margin: 5px 5px;
+    padding: 10px;
+    text-align: justify-all;
+}
 main div {
 	width: 720px;
 	margin-left: auto;
@@ -35,7 +42,7 @@ a:link {
 	color: #3333ff;
 	text-decoration: none;
 }
-footer {
+.footer {
 	background-color: #111111;
 	color: #FFFFFF;
 	padding: 20px;
