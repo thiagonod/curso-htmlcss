@@ -19,11 +19,9 @@ main h2 {
 	font-size: 30px;
 }
 main article {
-	background-color: #e6eaea;
-    border: 5px solid #b7cbde;
-    margin: 5px 5px;
-    padding: 10px;
-    text-align: justify-all;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
 }
 main div {
 	width: 720px;
