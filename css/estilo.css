@@ -8,8 +8,11 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 }
 main {
-	width: 85%;
+	width: 80%;
 	float: left;
+}
+blockquote {
+	box-sizing: border-box;
 }
 main h2 {
 	font-size: 30px;
@@ -41,7 +44,7 @@ a:link {
 	text-align: center;
 	background-color: rgb(133, 25, 68);
 	color: #ffffff;
-	padding: 10px;
+	padding: 20px;
 	border-bottom: 10px solid #000000;
 	text-transform: uppercase;
 }
@@ -97,9 +100,8 @@ a:link {
 	background-color: #D9E5E3;
 	padding: 20px;	
 	border: 10px solid #C2CCCA;
-	box-sizing: border-box;
 	width: 250px;
-	margin: 20px 40px;
+	margin: 20px 0px;
 }
 .clearfix {
 	clear: both;
@@ -125,13 +127,15 @@ a:link {
 	color: chocolate;
 }
 .fiat {
+	margin-left: 20px;
 	float:right;
 }
 .petrobras {
+	margin-right: 20px;
 	float: left;
 }
 .minha-foto, .navegacao-site {
-	width: 15%;
+	width: 20%;
 	float: right;
 	box-sizing: border-box;
 	border-left: 10px solid black;
