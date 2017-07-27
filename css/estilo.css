@@ -1,62 +1,68 @@
+/*
+	ORDEM DE RELEVANCIA PARA O NAVEGADOR:
+		# 	 ->  id 	-> mais relevante de todos
+		. 	 ->  class  -> mais relevante que TAG
+		body ->  TAG  	-> menos relevante
+*/
 body {
-	font-family: "Crimson Text", "Times new roman", serif;
-	background-color: #f2fffc;
-	font-size: 120%;
-	line-height: 120%;
+	font-family: "Crimson Text", "Times new roman", serif;/*seleciona uma fonte*/
+	background-color: #f2fffc;/*cor do FUNDO*/
+	font-size: 120%;/*tamnaho da fonte do texto*/
+	line-height: 120%;/*espaçamento entre as LINHAS do texto*/
 }
 h1, h2 {
-	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
+	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;/*carrega outra fonte*/
 }
 main {
-	width: 80%;
-	padding-bottom: 80px;
-	float: left;
+	width: 80%;/*largura, ocupa 80% da pagina*/
+	padding-bottom: 80px;/*espaçamento INTERNO inferior de 80px para o elemento main*/
+	float: left;/*coloca o elemento na parte ESQUERDA da PÁGINA e(ou) de outro FLOAT que não tenha um CLEAR*/
 }
-blockquote {
-	box-sizing: border-box;
+blockquote {/*bloco de citações*/
+	box-sizing: border-box;/*calcula o width levando em conta a MARGIN e PADDING*/
 }
 main h2 {
 	font-size: 30px;
-	clear: both;
+	clear: both;/*IMPEDE que um elemento FLOAT seja colocado em ambos(both) os lados(left, right)*/
 }
 aside a {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
-	color: inherit;
+	color: inherit;/*carrega(herança) a COR do texto do elemento pai*/
 }
 nav a {
-	text-transform: lowercase;
+	text-transform: lowercase;/*TRANSFORMA o texto em minuscula*/
 }
 strong {
-	font-weight: bold;
+	font-weight: bold;/*deixa o elemento STRONG negrito*/
 }
 em {
-	font-style: italic;
+	font-style: italic;/*deixa o elemento EM itallico*/
 }
 p {
-	text-align: justify;
+	text-align: justify;/*texto JUSTIFICADO*/
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
 footer {
 	width: 100%;
 	background-color: #111111;
-	color: #FFFFFF;
-	padding: 20px;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
+	color: #FFFFFF;/*-------------COR DO TEXTO*/
+	padding: 20px;/*espaçamento INTERNO de 20px(top, bottom, left, right)*/
+	position: fixed;/*MANTEM o elemento FIXO na TELA*/
+	bottom: 0px;/*cola o elemento na parte inferior da TELA e mantem ele fixo*/
+	left: 0px;/*cola o elemento na parte esqueda da TELA e mantem ele FIXO*/
 }
-a:link {
-	text-decoration: none;
+a:link {/*seleciona o elemento A, domente se ele for um link puro*/
+	text-decoration: none;/*TIRA o SUBLINHADO do elemento*/
 }
 .titulo-h1 {
 	font-size: 60px;
-	text-align: center;
-	background-color: rgb(133, 25, 68);
-	color: #ffffff;
-	padding: 20px;
+	text-align: center;/*alinha o texto ao centro do elemento que o texto se encontra*/
+	background-color: rgb(133, 25, 68);/*cor do FUNDO*/
+	color: #ffffff;/*cor do TEXTO*/
+	padding: 20px;/*espaçamento INTERNO(top, bottom, left, right)*/
 	border-bottom: 10px solid #000000;
-	text-transform: uppercase;
+	text-transform: uppercase;/*deixa o texto todo MAIUSCULO*/
 }
 .artigo {
 	padding-bottom: 30px;
@@ -65,10 +71,10 @@ a:link {
 }
 .conteudo-principal {
 	width: 720px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	margin-left: auto;/*margem a ESQUERDA de tamanho automatico*/
+	margin-right: auto;/*margem a DIREITA de tamanho automatico*/
+	padding-top: 30px;/*espaçamento INTERNO so no TOPO do elemento*/
+	padding-bottom: 30px;/*espaçamento INTERNO so na parte inferior do elemento*/
 }
 .navegacao-site {
 	background-color: #3C1D3D;
@@ -84,15 +90,17 @@ a:link {
 	margin-bottom: 25px;
 }
 .img-icons li {
-	display: inline-block;
+	display: inline-block;/*esse elemento pode ser alinaha LADO a LADO*/
+	/*pode ser BLOCK, que alinha um em cima do outro*/
 }
 .img-icons a {
 	width: 40px;
 	height: 40px;
-	display: block;
+	display: block;/*alinha esse elemento um em CIMA do outro*/
 	font-size: 0px;
 }
 .github {
+	/*carrega uma imagem, não é indexada pelo google*/
 	background-image: url(../static/github.png);
 }
 .twitter {
@@ -104,55 +112,55 @@ a:link {
 .citacao {
 	background-color: #D9E5E3;
 	padding: 20px;	
-	border: 10px solid #C2CCCA;
+	border: 10px solid #C2CCCA;/*cria uma BORDA em torno do elemento*/
 	width: 250px;
-	margin: 20px 0px;
+	margin: 20px 0px;/*margem de 20px(top, bottom) e 0px(left, right)*/
 }
 .clearfix {
-	clear: both;
+	clear: both;/*impede um FLOAT em ambos os lados de um elemento*/
 }
 .leia-mais {
 	padding: 8px;
 	margin: 16px;
 	text-align: center;
 	font-size: 24px;
-	display: block;
+	display: block;/*alinha esse elemento um em CIMA do outro*/
 	background-color: #E6E7E8;
-	border-radius: 7px;
+	border-radius: 7px; /*ARREDONDA as bordas de um elemento*/
 	color: gray;
 }
 .tags-footer {
-	margin: 10px 0px;
-	padding: 8px 0;
+	margin: 10px 0px;/*margem de 10px(top, bottom) e 0px(left, right)*/
+	padding: 8px 0;/*espaçamento INTERNO de 8px(top, bottom) e 0px(left, right)*/
 }
 .tags-footer a {
-	padding: 1px 3px;
+	padding: 1px 3px;/*espaçamento INTERNO de 1px(top, bottom) e 3px(left, right)*/
 	background-color: #E6E7E8;
 	border-radius: 7px;
 	color: chocolate;
 }
 .fiat {
-	margin-left: 20px;
-	float:right;
+	margin-left: 20px;/*margem de 20px a esquerda*/
+	float:right;/*coloca o elemento na parte DIREITA da PÁGINA e(ou) de outro FLOAT que não tenha um CLEAR*/
 }
 .petrobras {
-	margin-right: 20px;
-	float: left;
+	margin-right: 20px;/*margem de 20px a direita*/
+	float: left;/*coloca o elemento na parte ESQUERDA da PÁGINA e(ou) de outro FLOAT que não tenha um CLEAR*/
 }
 .minha-foto, .navegacao-site {
-	width: 20%;
-	float: right;
-	box-sizing: border-box;
-	border-left: 10px solid black;
-	border-bottom: 10px solid black;
+	width: 20%;/*comprimento do elemento*/
+	float: right;/*coloca o elemento na parte DIREITA da PÁGINA e(ou) de outro FLOAT que não tenha um CLEAR*/
+	box-sizing: border-box;/*calcula o width levando em conta a MARGIN e PADDING*/
+	border-left: 10px solid black;/*coloca borda sólida, preta de 10px de espessura, parte esquerda do elemento*/
+	border-bottom: 10px solid black;/*mesma coisa só que na parte inferior do elemento*/
 }
 .minha-foto {
 	width: 290px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
+	position: absolute;/*quebra o fluxo e desloca o elemento, posição baseada na tela do navegador*/
+	top: 0px;/*cola o elemento no top da TELA*/
+	right: 0px;/*cola o elemento na borda direita da TELA*/
 }
 .navegacao-site {
-	position: relative;
-	top: 290px;
+	position: relative;/*quebra o fluxo e desloca o elemento, posição baseada na posição original do elemento*/
+	top: 290px;/*desloca 290px partindo do topo da posição original, mantem left, right e bottom original*/
 }
