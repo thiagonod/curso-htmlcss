@@ -15,9 +15,6 @@ main h2 {
 	font-size: 30px;
 	clear: both;
 }
-aside {
-	box-sizing: border-box;
-}
 aside a {
 	font-family: "Open Sans Condensed", "Ubuntu", sans-serif;
 	color: inherit;
