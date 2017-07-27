@@ -4,9 +4,13 @@
 		. 	 ->  class  -> mais relevante que TAG
 		body ->  TAG  	-> menos relevante
 */
+
+:root{/*USANDO VARIAVEIS NO CSS!!!*/
+	--theme-color:#f2fffc;
+}
 body {
 	font-family: "Crimson Text", "Times new roman", serif;/*seleciona uma fonte*/
-	background-color: #f2fffc;/*cor do FUNDO*/
+	background-color: var(--theme-color);/*cor do FUNDO*/
 	font-size: 120%;/*tamnaho da fonte do texto*/
 	line-height: 120%;/*espaçamento entre as LINHAS do texto*/
 }
